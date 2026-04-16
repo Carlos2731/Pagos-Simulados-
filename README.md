@@ -27,8 +27,22 @@ git clone https://github.com/Carlos2731/Pagos-Simulados-.git
 cd Pagos-Simulados-
 pip install -r requirements.txt
 
-##Uso
+## ▶️ Uso del programa
+
+Ejecuta el archivo principal para simular una transferencia:
+
+```bash
 python src/main.py
+
+=== Estado inicial ===
+Carlos - Saldo: $1000.00
+Brayan - Saldo: $500.00
+✅ Transferencia exitosa: Carlos → Brayan ($200.00)
+
+=== Estado final ===
+Carlos - Saldo: $800.00
+Brayan - Saldo: $700.00
+
 
 ##Pruebas Unitarias
 pytest tests/
